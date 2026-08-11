@@ -1,8 +1,8 @@
 allowBuilds:
   '@swc/core': true
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@0.2.2
-  vite-plus: 0.2.2
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.16f3018f31dd475daf775e87e3eeb870fe9e5b4d
+  vite-plus: 0.0.0-commit.16f3018f31dd475daf775e87e3eeb870fe9e5b4d
 onlyBuiltDependencies:
   - '@swc/core'
   - '@tailwindcss/oxide'
