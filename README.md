@@ -36,26 +36,7 @@ _Note: You can install `pnpm` via `homebrew` on macOS: `brew install pnpm`._
 
 - Use [`npm-run-all2`](https://github.com/bcomnes/npm-run-all2) to parallelize local test runs.
 - Use `oxlint` for linting and `oxfmt` for formatting.
-- Use `swc` with `ts-node` for fast node scripts with [ESM](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/). See below ↓
 
 ## I'm not using Better Auth
 
 You can simply remove everything related to Better Auth in the `src/user` directory.
-
-## Run node scripts with ESM and TypeScript, fast.
-
-Create a `script.ts` file, run `chmod x script.ts` and execute it via `./script.ts`.
-
-```
-#!/usr/bin/env node --no-warnings --experimental-specifier-resolution=node --loader ts-node/esm
-
-console.log('Your code goes here.');
-```
-
-Use this to restart your scripts instantly when a file changes:
-
-```
-#!/usr/bin/env NODE_ENV=development node --watch --no-warnings --experimental-specifier-resolution=node --loader ts-node/esm
-
-console.log('This processes instantly restarts when a file changes.');
-```
