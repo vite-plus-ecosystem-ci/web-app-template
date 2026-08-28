@@ -9,7 +9,7 @@
   "type": "module",
   "scripts": {
     "dev:setup": "vp run fbtee:all",
-    "fbtee:all": "vpx fbtee collect --oxc && vpx fbtee translate --oxc",
+    "fbtee:all": "vpx fbtee collect && vpx fbtee translate",
     "prepare": "vp config"
   },
   "dependencies": {

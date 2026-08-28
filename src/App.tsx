@@ -27,7 +27,7 @@ const LocaleSwitcher = () => {
     <div>
       <a
         className={linkClassName}
-        onClick={() => startTransition(() => setLocale(locale === 'ja_JP' ? 'en_US' : 'ja_JP'))}
+        onClick={() => startTransition(() => setLocale(locale === 'ja-JP' ? 'en-US' : 'ja-JP'))}
       >
         {AvailableLanguages.get(locale)}
       </a>
