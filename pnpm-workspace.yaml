@@ -1,11 +1,11 @@
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@0.3.0
-  vite-plus: 0.3.0
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa
+  vite-plus: 0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa
 onlyBuiltDependencies:
   - '@tailwindcss/oxide'
   - unrs-resolver
 overrides:
-  vite: 'catalog:'
+  vite@*: 'catalog:'
 peerDependencyRules:
   allowAny:
     - vite
